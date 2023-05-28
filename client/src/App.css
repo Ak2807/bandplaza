@@ -1,0 +1,20 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+ }
+ .background{
+   position: absolute;
+   top: 0%;
+   bottom: 0%;
+   left: 0%;
+   right: 0%;
+   background: url(./images/istockphoto-1129172065-170667a.jpg)  no-repeat center;
+   background-size: cover;
+   filter: grayscale(100%);
+   filter: blur(100%);
+   z-index: -1;
+ }
+ 

@@ -1,0 +1,198 @@
+.topPage{
+    position:absolute;
+    display:flex;
+    z-index: 4;
+    width: 100%; 
+    height: 100px;
+    min-width: 100%;
+    background-color: #f3f7f9c0;
+    backdrop-filter: blur(8px);
+    padding-left: 10px;
+    padding-right: 16px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.175,0.885,0.32,1.275);
+}
+.topPage .logoContainer{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    background:#f3f7f9c0;
+    
+}
+.topPage .logoContainer img {
+    height: 100%;
+    width: 90%;
+    border-radius: 50%;
+    background-size: cover;
+    object-fit: cover;
+    margin-right: 4rem;
+    
+    
+
+}
+.top-menu{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
+    
+
+}
+.top-menu li{
+    list-style-type: none;
+    
+}
+
+.option-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+
+.topPage .option-container ul li a{
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem ;
+    font-weight: 900;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(46, 51, 74, 0.864);
+   
+
+}
+.user-login-signup{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    margin-right: 1rem;
+    width: 14rem ;
+    margin-top:2rem ;
+    position:relative;
+    gap:0.4rem;
+    
+
+
+}
+.user-login-signup .Login-user{
+    width: 7rem;
+    background-color:rgba(48, 53, 77, 0.733);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.634);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.Login-user{
+    width: 7rem;
+    background-color:rgba(48, 53, 77, 0.733);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.634);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.user-login-signup .Signup-user{
+    width: 7rem;
+    background-color:rgba(48, 53, 77, 0.733);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.634);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.user-image-name{
+    display: flex;
+   
+    height: 34px;
+    margin-right: 2rem;
+    width: 14rem ;
+    margin-top:1rem ;
+    position:relative;
+    gap:0.5rem;
+    overflow: visible;
+    align-items: center;
+    cursor: pointer;
+   
+   
+}
+.user-image-name .user-img{
+    width: 3rem;
+    margin-top: .5rem;
+    height: 3rem;
+    object-fit: cover; 
+    border-radius: 9999px; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);    
+}
+.user-image-name .user-text-name{
+    font-size: 1.01rem;
+    line-height: 1rem; 
+    font-weight: 700;
+    overflow: visible;
+    
+
+
+
+
+}
+.user-sign-out{
+    
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    gap: .9rem;
+    background-color: rgba(46, 51, 74, 0.864);
+    right: .21rem; 
+    top: 3.5rem; 
+    z-index: 10; 
+    padding: .5rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+    backdrop-filter: blur(4px);
+    width:10rem ; 
+    text-decoration: none;
+
+    
+
+}
+.user-sign-out .profile-div{
+    transition-property: all; 
+    transition-duration: 150ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    color: #f1f1f1e0;
+    text-decoration: none;
+    
+    
+    
+}
+
+.user-sign-out .profile-div:hover{
+    font-weight: 600; 
+}
+
+
+.user-sign-out .signout-div{
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    transition-property: all; 
+    transition-duration: 150ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    color: #f1f1f1e0;
+}
+.user-sign-out .signout-div:hover{
+    font-weight: 600; 
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

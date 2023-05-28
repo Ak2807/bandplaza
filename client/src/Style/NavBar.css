@@ -1,0 +1,92 @@
+.navBar{
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+    background-color:rgba(46, 51, 74, 0.864);
+    backdrop-filter: blur(8px);
+    display: flex;
+    gap: 21rem;
+    
+   
+    
+
+}
+.navBar .mainmenu i{
+    font-size: 40px;
+    color: #f1f1f1e0;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-left: 1rem;
+
+}
+.navBar .mainmenu i:hover{
+    color: rgb(55, 61, 87);
+
+}
+.menu-list{
+    
+    display: flex;
+    align-items: center;
+    width: 40rem;
+
+}
+
+.menu-list ul{
+    display: flex;
+    gap: 8rem;
+
+
+}
+.menu-list ul li{
+    list-style: none;
+
+}
+.menu-list ul li a{
+    text-decoration: none;
+    color: #f1f1f1e0;
+    font-size: 18px;
+    font-weight: 640;
+    margin-right: 3rem;;
+    
+}
+.menu-list ul li a:hover{
+    color: rgb(55, 61, 87);
+}
+.searchBox{
+    width: 16rem;
+    height: 44px;
+    position: relative;
+    right: 2rem;
+    color:rgba(46, 51, 74, 0.622);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.733);
+}
+.searchBox input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background:rgba(46, 51, 74, 0.912);
+    padding-left: 45px;
+    color: #f1f1f18e;
+    font-size: 14px;
+    font-weight: bold;
+}
+.searchBox .searchIcon{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: #848484;
+    width: 45px;
+    height: 45px;
+    
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+
